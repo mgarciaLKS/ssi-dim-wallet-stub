@@ -71,7 +71,7 @@ helm install wallet-stub -n wallet charts/ssi-dim-wallet-stub
 | `wallet.ingress.enabled`                      | Enable ingress configuration                                                           | `false`                                           |
 | `wallet.ingress.tls`                          | Enable TLS for ingress                                                                 | `false`                                           |
 | `wallet.ingress.urlPrefix`                    | URL prefix for the ingress                                                             | `/`                                               |
-| `wallet.ingress.className`                    | Ingress class name                                                                     | `nginx`                                           |
+| `wallet.ingress.className`                    | Ingress class name                                                                     | `traefik`                                         |
 | `wallet.ingress.annotations`                  | Annotations for the ingress                                                            | `{}`                                              |
 | `wallet.swagger.ui.status`                    | Enable Swagger API documentation UI                                                    | `true`                                            |
 | `wallet.swagger.apiDoc.status`                | Enable OpenAPI documentation                                                           | `true`                                            |

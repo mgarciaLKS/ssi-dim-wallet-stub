@@ -96,7 +96,7 @@ wallet:
       # -- Name of the tls secret
       name: ""
     urlPrefix: /
-    className: nginx
+    className: traefik
     annotations: { }
   swagger:
     ui:
